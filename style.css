@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+}
+
+
+
+.navbar
+{
+    height: 60px;
+    background-color:#163932;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+   
+}
+
+.nav-logo
+{
+   height: 50px;
+   width: 100px;
+   cursor: pointer;
+}
+.logo
+{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100% ;
+}
+
+.border
+{
+  border: 1.3px solid transparent;
+}
+
+.border:hover
+{
+    border: 1.3px solid white;
+}
+
+.nav-address
+{
+    cursor: pointer;
+}
+
+.add-icon
+{
+    display: flex;
+}
+
+.add-first
+{
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left:15px;
+
+}
+
+.add-sec
+{
+    font-size: 1rem;
+    color:#ffffff;
+    margin-left: 3px;
+    font-weight: 700;
+}
+
+.nav-search
+{
+    display: flex;
+    justify-content: space-evenly;
+   
+    width: 55%;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.nav-search:hover
+{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 3px solid orange;
+}
+
+.search-select
+{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+}
+
+.search-input
+{
+    width: 100%;
+    font-size: 0.9rem;
+    border: none;
+    padding-left: 10px;
+
+}
+
+.search-icon
+{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #ffdbc9;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+}
+
+.language
+{
+    display: flex;
+}
+
+.usa-flag
+{
+    width: 22px;
+    height: 22px;
+    
+}
+
+.country
+{
+    color: white;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+
+}
+
+
+
+span
+{
+  font-size: 0.8rem;
+ 
+  margin-left: 2.3px;
+}
+
+.account
+{
+    font-size: 0.85rem;
+    font-weight: 700;
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+
+.orders
+{
+    cursor: pointer;
+}
+
+.nav-cart i
+{
+    font-size: 30px;
+}
+
+.nav-cart
+{
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.panel
+{
+    height: 40px;
+    background-color: #1e5247;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all
+{
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.panel-ops p
+{
+    display: inline;
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+
+.panel-ops
+{
+    width: 80%;
+    font-size: 0.85rem;
+    font-weight: 550;
+}
+
+.panel-deals
+{
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.hero-section
+{
+    background-image: url(71j8damPo5L._SX3000_.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg
+{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    justify-content:center;
+    width: 97%;
+    margin-bottom: 25px;
+}
+
+.hero-msg a
+{
+    color: #163932;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.shop-section
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to bottom, #f38dd1, #eeaee8, #eccbf7, #f1e6fe, #ffffff);
+}  
+
+.box
+{
+    height: 420px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px; 
+    box-shadow: 0 0 10px rgba(244, 189, 244, 0.1); /* Add shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 20px rgba(224, 166, 219, 0.423);
+}
+
+.box-img {
+    height: 350px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.box:hover{
+    transform: scale(1.05);
+}
+
+.box-content
+{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p
+{
+  color:#007185;
+  cursor: pointer;
+}
+
+.foot-panel0
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+hr
+{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.top
+{
+    margin-top: 35px;
+  
+    text-align: center;
+    font-size: 15px;
+}
+
+.bottom 
+{
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 35px;
+    
+}
+
+.bottom a
+
+{
+    text-decoration: none;
+    color: black;
+}
+
+.bottom a:hover
+{
+    color: rgb(246, 113, 5);
+}
+
+
+.signin-button button
+{
+    width: 250px;
+    height: 28px;
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    color: black;
+    font-weight:bold;
+    font-size: 13px;
+    margin-top: 8px;
+    background-color: #faba18;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    cursor: pointer;
+    margin-bottom: 8px;
+   
+}
+.foot-panel1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #37475a;
+    color: white;
+   
+}
+
+.foot-panel1 a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.foot-panel1:hover
+{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.foot-panel2
+{
+    background-color: #222f3d;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul
+{
+    margin-top: 50px;
+    font-weight: 700;
+    
+}
+
+ul a
+{
+    display: block;
+    color: #dddddd;
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul a:hover
+{
+    text-decoration: underline;
+}
+
+.foot-panel3
+{
+    background-color:#25313c;
+    color: white;
+    height: 80px;
+    padding-top:5px; ;
+   
+}  
+.pages {
+    font-size: 0.75rem;
+    text-align: center;
+    margin-bottom: 5px;
+ 
+}
+
+.pages a
+{
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    padding-right: 12px;
+}
+
+
+.pages a:hover
+{
+    text-decoration: underline;
+   
+}
+   
+
+.copyrights {
+    font-size: 0.75rem;
+    margin-right: 2px;
+    text-align: center;
+}
